@@ -17,6 +17,18 @@
 		283DC20629FAE06F00AFF936 /* NetworkErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20529FAE06F00AFF936 /* NetworkErrorHandler.swift */; };
 		283DC20829FAE07C00AFF936 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20729FAE07C00AFF936 /* RequestFactory.swift */; };
 		283DC20A29FAE08C00AFF936 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20929FAE08C00AFF936 /* NetworkRequest.swift */; };
+		283DC21129FE7E3E00AFF936 /* CitiesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21029FE7E3E00AFF936 /* CitiesFactory.swift */; };
+		283DC21329FE7EA000AFF936 /* CitiesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21229FE7EA000AFF936 /* CitiesRequest.swift */; };
+		283DC21529FE7ECB00AFF936 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21429FE7ECB00AFF936 /* City.swift */; };
+		283DC21729FE7F0800AFF936 /* CitiesFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21629FE7F0800AFF936 /* CitiesFetching.swift */; };
+		283DC21929FE7FA800AFF936 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21829FE7FA800AFF936 /* CitiesViewModel.swift */; };
+		283DC21B29FE822900AFF936 /* MapZoomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21A29FE822900AFF936 /* MapZoomButtons.swift */; };
+		283DC21D29FE827000AFF936 /* MapAnnotationImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21C29FE827000AFF936 /* MapAnnotationImage.swift */; };
+		283DC21F29FE841800AFF936 /* CitiesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC21E29FE841800AFF936 /* CitiesMapView.swift */; };
+		283DC22129FE852200AFF936 /* CitiesViewModel+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC22029FE852200AFF936 /* CitiesViewModel+Stub.swift */; };
+		283DC22329FE87BD00AFF936 /* City+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC22229FE87BD00AFF936 /* City+Stub.swift */; };
+		283DC22529FE8C0400AFF936 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC22429FE8C0400AFF936 /* CitiesView.swift */; };
+		283DC22729FF24AD00AFF936 /* CityNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC22629FF24AD00AFF936 /* CityNameTextField.swift */; };
 		284004E129F97B6800247FE9 /* FelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284004E029F97B6800247FE9 /* FelixApp.swift */; };
 		284004E529F97B6900247FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284004E429F97B6900247FE9 /* Assets.xcassets */; };
 		284004E829F97B6900247FE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284004E729F97B6900247FE9 /* Preview Assets.xcassets */; };
@@ -44,6 +56,18 @@
 		283DC20529FAE06F00AFF936 /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorHandler.swift; sourceTree = "<group>"; };
 		283DC20729FAE07C00AFF936 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
 		283DC20929FAE08C00AFF936 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		283DC21029FE7E3E00AFF936 /* CitiesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFactory.swift; sourceTree = "<group>"; };
+		283DC21229FE7EA000AFF936 /* CitiesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesRequest.swift; sourceTree = "<group>"; };
+		283DC21429FE7ECB00AFF936 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		283DC21629FE7F0800AFF936 /* CitiesFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFetching.swift; sourceTree = "<group>"; };
+		283DC21829FE7FA800AFF936 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		283DC21A29FE822900AFF936 /* MapZoomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapZoomButtons.swift; sourceTree = "<group>"; };
+		283DC21C29FE827000AFF936 /* MapAnnotationImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationImage.swift; sourceTree = "<group>"; };
+		283DC21E29FE841800AFF936 /* CitiesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesMapView.swift; sourceTree = "<group>"; };
+		283DC22029FE852200AFF936 /* CitiesViewModel+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CitiesViewModel+Stub.swift"; sourceTree = "<group>"; };
+		283DC22229FE87BD00AFF936 /* City+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+Stub.swift"; sourceTree = "<group>"; };
+		283DC22429FE8C0400AFF936 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
+		283DC22629FF24AD00AFF936 /* CityNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameTextField.swift; sourceTree = "<group>"; };
 		284004DD29F97B6800247FE9 /* Felix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Felix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284004E029F97B6800247FE9 /* FelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelixApp.swift; sourceTree = "<group>"; };
 		284004E429F97B6900247FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +124,57 @@
 				283DC20129FAE04C00AFF936 /* NetworkService.swift */,
 			);
 			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		283DC20B29FE7AD700AFF936 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				283DC21029FE7E3E00AFF936 /* CitiesFactory.swift */,
+				283DC20C29FE7DE700AFF936 /* Model */,
+				283DC20D29FE7DEE00AFF936 /* View */,
+				283DC20E29FE7DF400AFF936 /* VIewModel */,
+				283DC20F29FE7E1800AFF936 /* Stub */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		283DC20C29FE7DE700AFF936 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				283DC21429FE7ECB00AFF936 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		283DC20D29FE7DEE00AFF936 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				283DC21E29FE841800AFF936 /* CitiesMapView.swift */,
+				283DC22629FF24AD00AFF936 /* CityNameTextField.swift */,
+				283DC22429FE8C0400AFF936 /* CitiesView.swift */,
+				283DC21C29FE827000AFF936 /* MapAnnotationImage.swift */,
+				283DC21A29FE822900AFF936 /* MapZoomButtons.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		283DC20E29FE7DF400AFF936 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				283DC21629FE7F0800AFF936 /* CitiesFetching.swift */,
+				283DC21229FE7EA000AFF936 /* CitiesRequest.swift */,
+				283DC21829FE7FA800AFF936 /* CitiesViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		283DC20F29FE7E1800AFF936 /* Stub */ = {
+			isa = PBXGroup;
+			children = (
+				283DC22029FE852200AFF936 /* CitiesViewModel+Stub.swift */,
+				283DC22229FE87BD00AFF936 /* City+Stub.swift */,
+			);
+			path = Stub;
 			sourceTree = "<group>";
 		};
 		284004D429F97B6800247FE9 = {
@@ -164,6 +239,7 @@
 		284004F029F97C6D00247FE9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				283DC20B29FE7AD700AFF936 /* Cities */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -284,17 +360,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283DC22329FE87BD00AFF936 /* City+Stub.swift in Sources */,
 				283DC20629FAE06F00AFF936 /* NetworkErrorHandler.swift in Sources */,
+				283DC21729FE7F0800AFF936 /* CitiesFetching.swift in Sources */,
 				283DC1FF29FAE01700AFF936 /* ErrorViewDelegate.swift in Sources */,
 				283DC20429FAE06200AFF936 /* NetworkError.swift in Sources */,
+				283DC21F29FE841800AFF936 /* CitiesMapView.swift in Sources */,
 				283DC1FD29FADFFB00AFF936 /* ErrorView.swift in Sources */,
 				283DC1E829FAD2E400AFF936 /* AppDelegate.swift in Sources */,
 				283DC1F829FADFBF00AFF936 /* FeatureState.swift in Sources */,
+				283DC21529FE7ECB00AFF936 /* City.swift in Sources */,
+				283DC21B29FE822900AFF936 /* MapZoomButtons.swift in Sources */,
+				283DC22729FF24AD00AFF936 /* CityNameTextField.swift in Sources */,
 				283DC20829FAE07C00AFF936 /* RequestFactory.swift in Sources */,
 				283DC1FA29FADFD900AFF936 /* PropertyReflectable.swift in Sources */,
 				283DC20A29FAE08C00AFF936 /* NetworkRequest.swift in Sources */,
 				284004E129F97B6800247FE9 /* FelixApp.swift in Sources */,
 				283DC20229FAE04C00AFF936 /* NetworkService.swift in Sources */,
+				283DC22129FE852200AFF936 /* CitiesViewModel+Stub.swift in Sources */,
+				283DC22529FE8C0400AFF936 /* CitiesView.swift in Sources */,
+				283DC21929FE7FA800AFF936 /* CitiesViewModel.swift in Sources */,
+				283DC21D29FE827000AFF936 /* MapAnnotationImage.swift in Sources */,
+				283DC21329FE7EA000AFF936 /* CitiesRequest.swift in Sources */,
+				283DC21129FE7E3E00AFF936 /* CitiesFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
