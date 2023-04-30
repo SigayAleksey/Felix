@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		283DC1E829FAD2E400AFF936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1E729FAD2E400AFF936 /* AppDelegate.swift */; };
+		283DC1F829FADFBF00AFF936 /* FeatureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1F729FADFBF00AFF936 /* FeatureState.swift */; };
+		283DC1FA29FADFD900AFF936 /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1F929FADFD900AFF936 /* PropertyReflectable.swift */; };
+		283DC1FD29FADFFB00AFF936 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1FC29FADFFB00AFF936 /* ErrorView.swift */; };
+		283DC1FF29FAE01700AFF936 /* ErrorViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1FE29FAE01700AFF936 /* ErrorViewDelegate.swift */; };
+		283DC20229FAE04C00AFF936 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20129FAE04C00AFF936 /* NetworkService.swift */; };
+		283DC20429FAE06200AFF936 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20329FAE06200AFF936 /* NetworkError.swift */; };
+		283DC20629FAE06F00AFF936 /* NetworkErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20529FAE06F00AFF936 /* NetworkErrorHandler.swift */; };
+		283DC20829FAE07C00AFF936 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20729FAE07C00AFF936 /* RequestFactory.swift */; };
+		283DC20A29FAE08C00AFF936 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC20929FAE08C00AFF936 /* NetworkRequest.swift */; };
 		284004E129F97B6800247FE9 /* FelixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284004E029F97B6800247FE9 /* FelixApp.swift */; };
 		284004E529F97B6900247FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284004E429F97B6900247FE9 /* Assets.xcassets */; };
 		284004E829F97B6900247FE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284004E729F97B6900247FE9 /* Preview Assets.xcassets */; };
@@ -26,6 +35,15 @@
 /* Begin PBXFileReference section */
 		283DC1E729FAD2E400AFF936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283DC1ED29FAD65C00AFF936 /* FelixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FelixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283DC1F729FADFBF00AFF936 /* FeatureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureState.swift; sourceTree = "<group>"; };
+		283DC1F929FADFD900AFF936 /* PropertyReflectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
+		283DC1FC29FADFFB00AFF936 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		283DC1FE29FAE01700AFF936 /* ErrorViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewDelegate.swift; sourceTree = "<group>"; };
+		283DC20129FAE04C00AFF936 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		283DC20329FAE06200AFF936 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		283DC20529FAE06F00AFF936 /* NetworkErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorHandler.swift; sourceTree = "<group>"; };
+		283DC20729FAE07C00AFF936 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
+		283DC20929FAE08C00AFF936 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		284004DD29F97B6800247FE9 /* Felix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Felix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284004E029F97B6800247FE9 /* FelixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FelixApp.swift; sourceTree = "<group>"; };
 		284004E429F97B6900247FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +81,25 @@
 			children = (
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		283DC1FB29FADFEC00AFF936 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		283DC20029FAE02B00AFF936 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				283DC20329FAE06200AFF936 /* NetworkError.swift */,
+				283DC20529FAE06F00AFF936 /* NetworkErrorHandler.swift */,
+				283DC20729FAE07C00AFF936 /* RequestFactory.swift */,
+				283DC20929FAE08C00AFF936 /* NetworkRequest.swift */,
+				283DC20129FAE04C00AFF936 /* NetworkService.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 		284004D429F97B6800247FE9 = {
@@ -114,6 +151,12 @@
 		284004EF29F97C6400247FE9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				283DC1FC29FADFFB00AFF936 /* ErrorView.swift */,
+				283DC1FE29FAE01700AFF936 /* ErrorViewDelegate.swift */,
+				283DC20029FAE02B00AFF936 /* NetworkService */,
+				283DC1FB29FADFEC00AFF936 /* UI */,
+				283DC1F729FADFBF00AFF936 /* FeatureState.swift */,
+				283DC1F929FADFD900AFF936 /* PropertyReflectable.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -241,8 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283DC20629FAE06F00AFF936 /* NetworkErrorHandler.swift in Sources */,
+				283DC1FF29FAE01700AFF936 /* ErrorViewDelegate.swift in Sources */,
+				283DC20429FAE06200AFF936 /* NetworkError.swift in Sources */,
+				283DC1FD29FADFFB00AFF936 /* ErrorView.swift in Sources */,
 				283DC1E829FAD2E400AFF936 /* AppDelegate.swift in Sources */,
+				283DC1F829FADFBF00AFF936 /* FeatureState.swift in Sources */,
+				283DC20829FAE07C00AFF936 /* RequestFactory.swift in Sources */,
+				283DC1FA29FADFD900AFF936 /* PropertyReflectable.swift in Sources */,
+				283DC20A29FAE08C00AFF936 /* NetworkRequest.swift in Sources */,
 				284004E129F97B6800247FE9 /* FelixApp.swift in Sources */,
+				283DC20229FAE04C00AFF936 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
