@@ -40,8 +40,12 @@ struct CitiesMapView<ViewModel: CitiesViewModelProtocol & MapZoomButtonsProtocol
             
             MapZoomButtons(viewModel: viewModel)
         }
-        .task {
-            await viewModel.getCities(name: "New")
+        .sheet(isPresented: $viewModel.showingCityDetails) {
+            NavigationView {
+                if let city = viewModel.selectedCity {
+                    CityDetailsView(city: city)
+                }
+            }
         }
     }
 }
