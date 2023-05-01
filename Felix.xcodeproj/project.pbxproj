@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2831077229FFEA9200C6EF05 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831077129FFEA9200C6EF05 /* CitiesViewModel.swift */; };
+		2831077229FFEA9200C6EF05 /* CitiesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831077129FFEA9200C6EF05 /* CitiesViewModelTests.swift */; };
+		2831077529FFEB5500C6EF05 /* NetworkServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831077429FFEB5500C6EF05 /* NetworkServiceMock.swift */; };
 		283DC1E829FAD2E400AFF936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1E729FAD2E400AFF936 /* AppDelegate.swift */; };
 		283DC1F829FADFBF00AFF936 /* FeatureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1F729FADFBF00AFF936 /* FeatureState.swift */; };
 		283DC1FA29FADFD900AFF936 /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283DC1F929FADFD900AFF936 /* PropertyReflectable.swift */; };
@@ -57,7 +58,8 @@
 
 /* Begin PBXFileReference section */
 		2831077029FFEA9200C6EF05 /* FelixTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FelixTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		2831077129FFEA9200C6EF05 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		2831077129FFEA9200C6EF05 /* CitiesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModelTests.swift; sourceTree = "<group>"; };
+		2831077429FFEB5500C6EF05 /* NetworkServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceMock.swift; sourceTree = "<group>"; };
 		283DC1E729FAD2E400AFF936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		283DC1ED29FAD65C00AFF936 /* FelixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FelixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		283DC1F729FADFBF00AFF936 /* FeatureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureState.swift; sourceTree = "<group>"; };
@@ -118,15 +120,24 @@
 		2831076F29FFEA6E00C6EF05 /* Cities */ = {
 			isa = PBXGroup;
 			children = (
-				2831077129FFEA9200C6EF05 /* CitiesViewModel.swift */,
-				2831077029FFEA9200C6EF05 /* FelixTests-Bridging-Header.h */,
+				2831077129FFEA9200C6EF05 /* CitiesViewModelTests.swift */,
 			);
 			path = Cities;
+			sourceTree = "<group>";
+		};
+		2831077329FFEB4600C6EF05 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2831077429FFEB5500C6EF05 /* NetworkServiceMock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		283DC1EE29FAD65C00AFF936 /* FelixTests */ = {
 			isa = PBXGroup;
 			children = (
+				2831077029FFEA9200C6EF05 /* FelixTests-Bridging-Header.h */,
+				2831077329FFEB4600C6EF05 /* Mock */,
 				283DC1F629FAD67700AFF936 /* Modules */,
 			);
 			path = FelixTests;
@@ -437,7 +448,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2831077229FFEA9200C6EF05 /* CitiesViewModel.swift in Sources */,
+				2831077529FFEB5500C6EF05 /* NetworkServiceMock.swift in Sources */,
+				2831077229FFEA9200C6EF05 /* CitiesViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +522,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CJProject.FelixTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "FelixTests/Modules/Cities/FelixTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FelixTests/FelixTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -536,7 +548,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CJProject.FelixTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "FelixTests/Modules/Cities/FelixTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "FelixTests/FelixTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Felix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Felix";

@@ -123,7 +123,7 @@ final class CitiesViewModel: CitiesViewModelProtocol {
 }
 
 extension CitiesViewModel: ErrorViewDelegate {
-    var repeatableOptions: ErrorViewRepeatableOptions { .repeatable }
+    var repeatableOptions: ErrorViewRepeatableOptions { .noRepeatOption }
     
     func cancelAction() {
         state = .none
