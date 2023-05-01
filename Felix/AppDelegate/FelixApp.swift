@@ -13,7 +13,7 @@ struct FelixApp: App {
 
     var body: some Scene {
         WindowGroup {
-            EmptyView()
+            CitiesFactory.create()
         }
     }
 }
